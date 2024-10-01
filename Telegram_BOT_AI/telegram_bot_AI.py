@@ -27,7 +27,7 @@ translator = Translator()
 
 # إعداد مفاتيح API
 OWM_API_KEY = '5a38db36afbbae4aa06ddde8c4cc9d27'
-TELEGRAM_API_KEY = '7305500859:AAEkVVdAR9fGbJIp8jK50yzd-gsM-JRCxDw'
+TELEGRAM_API_KEY = 'your bot api from bot_father'
 
 bot = telebot.TeleBot(TELEGRAM_API_KEY)
 owm = OWM(OWM_API_KEY)
