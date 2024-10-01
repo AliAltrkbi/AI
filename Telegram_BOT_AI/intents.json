@@ -1,0 +1,254 @@
+{
+  "intents": [
+    {
+      "tag": "welcome_messages",
+      "patterns": ["Hello", "Greetings"],
+      "responses": ["Welcome! How can I assist you today?", "Hello! How can I help you?"]
+    },
+    {
+      "tag": "رسالة_ترحيبية",
+      "patterns": ["مرحبًا", "كيف الحال"],
+      "responses": ["مرحبًا بك! كيف يمكنني مساعدتك اليوم؟", "أهلا! كيف يمكنني خدمتك؟"]
+    },
+    {
+      "tag": "user_interaction",
+      "patterns": ["Can you help me?", "I have a question"],
+      "responses": ["Is there something specific you'd like to talk about?", "What can I help you with?"]
+    },
+    {
+      "tag": "تفاعل_مع_المستخدم",
+      "patterns": ["هل تستطيع مساعدتي؟", "لدي سؤال"],
+      "responses": [ "هل هناك شيء محدد تود التحدث عنه؟", "بماذا يمكنني مساعدتك؟"]
+    },
+    {
+      "tag": "health_tips",
+      "patterns": ["  health ", "How can I stay healthy?"],
+      "responses": ["Drink plenty of water to stay hydrated.", "Exercise regularly to maintain your health."]
+    },
+    {
+      "tag": "نصائح_صحية",
+      "patterns": ["اعطني بعض النصائح الصحية", "كيف أبقى بصحة جيدة؟"],
+      "responses": ["اشرب الكثير من الماء للحفاظ على ترطيب جسمك.", "مارس التمارين الرياضية بانتظام للحفاظ على صحتك."]
+    },
+    {
+      "tag": "programming_tips",
+      "patterns": [" programming ", "How can I write better code?"],
+      "responses": ["Write clean and organized code to make it easier to read and maintain.", "Regularly review your code to catch errors and improve performance."]
+    },
+    {
+      "tag": "نصائح_برمجية",
+      "patterns": ["هل لديك نصائح برمجية؟", "كيف أكتب كود أفضل؟"],
+      "responses": ["قم بكتابة كود نظيف ومنظم لتسهيل قراءته وصيانته.", "احرص على مراجعة الكود بشكل دوري لاكتشاف الأخطاء وتحسين الأداء."]
+    },
+    {
+      "tag": "travel_tips",
+      "patterns": [" travel ", "How can I prepare for a trip?", "هل لديك نصائح عن السفر؟", "كيف أستعد لرحلة؟"],
+      "responses": ["Check the weather before traveling to pack appropriate clothing.", "Keep copies of important documents in a safe place.", "قم بالتحقق من الطقس قبل السفر لتحضير الملابس المناسبة.", "احتفظ بنسخ من مستنداتك المهمة في مكان آمن."]
+    },
+    {
+      "tag": "نصائح_سفر",
+      "patterns": ["سفر","هل لديك نصائح عن السفر؟", "كيف أستعد لرحلة؟"],
+      "responses": [ "قم بالتحقق من الطقس قبل السفر لتحضير الملابس المناسبة.", "احتفظ بنسخ من مستنداتك المهمة في مكان آمن."]
+    },
+    {
+      "tag": "movie_tips",
+      "patterns": [" movie", "What should I watch?"],
+      "responses": ["Try watching classic movies to learn about the history of cinema.", "Read movie reviews before watching to get an idea about the story and quality."]
+    },
+    {
+      "tag": "نصائح_أفلام",
+      "patterns": ["فيلم","أوصي بفيلم جيد", "ماذا يجب أن أشاهد؟"],
+      "responses": [ "جرب مشاهدة الأفلام الكلاسيكية لتتعرف على تاريخ السينما.", "اقرأ مراجعات الأفلام قبل مشاهدتها للحصول على فكرة عن القصة والجودة."]
+    },
+    {
+      "tag": "programming_learning_tips",
+      "patterns": ["How can I learn programming?", "Tips for learning coding?", "كيف أتعلم البرمجة؟", "نصائح لتعلم البرمجة؟"],
+      "responses": ["Start by learning the basics before moving on to advanced topics.", "Participate in open source projects to gain practical experience.", "ابدأ بتعلم الأساسيات قبل الانتقال إلى المواضيع المتقدمة.", "شارك في المشاريع المفتوحة المصدر لاكتساب خبرة عملية."]
+    },
+    {
+      "tag": "نصائح تعلم برمجية",
+      "patterns": ["كيف أتعلم البرمجة؟", "نصائح لتعلم البرمجة؟"],
+      "responses": ["ابدأ بتعلم الأساسيات قبل الانتقال إلى المواضيع المتقدمة.", "شارك في المشاريع المفتوحة المصدر لاكتساب خبرة عملية."]
+    },
+    {
+      "tag": "education_tips",
+      "patterns": ["How can I improve my studying?", "Any tips for better learning?", "كيف يمكنني تحسين دراستي؟", "هل لديك نصائح للتعلم الأفضل؟"],
+      "responses": ["Try creating a study schedule and stick to it. Break down your study sessions into smaller, manageable chunks.", "Practice active learning techniques like summarizing material in your own words or teaching it to someone else.", "حاول إنشاء جدول زمني للدراسة والتمسك به. قسّم جلسات الدراسة إلى مجموعات صغيرة يمكن إدارتها بسهولة.", "مارس تقنيات التعلم النشط مثل تلخيص المواد بكلماتك الخاصة أو تدريسها لشخص آخر."]
+    },
+    {
+      "tag": "نصائح_تعليمية",
+      "patterns": [ "كيف يمكنني تحسين دراستي؟", "هل لديك نصائح للتعلم الأفضل؟"],
+      "responses": [ "حاول إنشاء جدول زمني للدراسة والتمسك به. قسّم جلسات الدراسة إلى مجموعات صغيرة يمكن إدارتها بسهولة.", "مارس تقنيات التعلم النشط مثل تلخيص المواد بكلماتك الخاصة أو تدريسها لشخص آخر."]
+    },
+    {
+      "tag": "programming_resources",
+      "patterns": ["Where can I find coding tutorials?", "Recommend a good programming book", "أين يمكنني العثور على دروس برمجة؟", "أوصي بكتاب جيد في البرمجة"],
+      "responses": ["You can find coding tutorials on platforms like YouTube, Udemy, and freeCodeCamp.", "I recommend 'Clean Code' by Robert C. Martin for improving your programming skills.", "يمكنك العثور على دروس البرمجة على منصات مثل YouTube و Udemy و freeCodeCamp.", "أوصي بـ 'Clean Code' لروبرت سي. مارتن لتحسين مهارات البرمجة الخاصة بك."]
+    },
+    {
+      "tag": "مصادر_برمجية",
+      "patterns": [ "أين يمكنني العثور على دروس برمجة؟", "أوصي بكتاب جيد في البرمجة"],
+      "responses": [ "يمكنك العثور على دروس البرمجة على منصات مثل YouTube و Udemy و freeCodeCamp.", "أوصي بـ 'Clean Code' لروبرت سي. مارتن لتحسين مهارات البرمجة الخاصة بك."]
+    },
+    {
+      "tag": "emotional_support",
+      "patterns": ["I feel stressed out", "I'm feeling lonely", "أشعر بالتوتر", "أشعر بالوحدة"],
+      "responses": ["Take a deep breath and try to focus on things you can control. Consider talking to a friend or loved one about how you're feeling.", "Remember that it's okay to feel lonely sometimes. Reach out to someone you trust and share your thoughts and feelings with them.", "خذ نفسًا عميقًا وحاول التركيز على الأمور التي يمكنك التحكم فيها. فكر في التحدث إلى صديق أو شخص عزيز عليك حول مشاعرك.", "تذكر أنه من الطبيعي أن تشعر بالوحدة في بعض الأحيان. تواصل مع شخص تثق به وشاركه أفكارك ومشاعرك معه."]
+    },
+    {
+      "tag": "دعم_نفسي",
+      "patterns": [ "أشعر بالتوتر", "أشعر بالوحدة"],
+      "responses": ["خذ نفسًا عميقًا وحاول التركيز على الأمور التي يمكنك التحكم فيها. فكر في التحدث إلى صديق أو شخص عزيز عليك حول مشاعرك.", "تذكر أنه من الطبيعي أن تشعر بالوحدة في بعض الأحيان. تواصل مع شخص تثق به وشاركه أفكارك ومشاعرك معه."]
+    },
+ 
+
+    {
+      "tag": "happiness",
+      "patterns": ["Happy", "Joyful", "Excited", "Delighted", "joy", "gladness", "contentment", "pleasure", "elation", "i feel good"],
+      "responses": [
+        "That's great to hear!", 
+        "I'm glad you're feeling happy", 
+        "Happiness is contagious!",
+        "Engage in activities you enjoy and bring you joy, such as drawing, reading, exercising, or cooking.",
+        "Share happiness with others by offering support and assistance.",
+        "Keep a small journal where you record moments of happiness you experience daily.",
+        "Practice meditation and yoga to enhance your sense of happiness and inner peace.",
+        "Look for volunteering opportunities to help others, as you will feel happy by providing assistance and positivity to others."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "سعادة",
+      "patterns": ["سعيد", "مبتهج", "مسرور", "فرحان", "أشعر بالسعادة"],
+      "responses": [
+        "هذا رائع!",
+        "أنا سعيد لأنك تشعر بالسعادة",
+        "السعادة معدية!",
+        "اشترك في الأنشطة التي تستمتع بها وتجلب لك السعادة، مثل الرسم أو القراءة أو ممارسة الرياضة أو الطهي.",
+        "شارك السعادة مع الآخرين من خلال تقديم الدعم والمساعدة.",
+        "احتفظ بمفكرة صغيرة تسجل فيها لحظات السعادة التي تمر بها يوميًا.",
+        "مارس التأمل واليوغا لتعزيز شعورك بالسعادة والسلام الداخلي.",
+        "ابحث عن فرص للتطوع لمساعدة الآخرين، حيث ستشعر بالسعادة من خلال تقديم المساعدة والإيجابية للآخرين."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "sadness",
+      "patterns": ["i feel Sad", "Unhappy", "Disappointed", "Heartbroken", "sorrow", "sorry for you", "grief", "melancholy", "unhappiness", "despair"],
+      "responses": [
+        "Expressing your feelings: Try talking to someone close about your feelings and what is causing you sadness. Talking about feelings may help you ease the psychological burden and make you feel better.",
+        "Exercise: Do physical activity for a short period, such as walking or running. Moving the body releases happiness hormones and helps improve mood.",
+        "Enjoy nature: Take a nature walk or take a walk in a park. The outdoors and beautiful scenery can inspire you and relieve sadness.",
+        "Relaxation and meditation: Try relaxation and meditation techniques such as deep breathing and quiet meditation. These activities can calm your mind and lift your spirits.",
+        "Write down how you feel: Try writing down your feelings and thoughts in a note or diary.",
+        "Writing is an effective way to express feelings and relieve sadness.",
+        "Listen to music: Choose a music playlist that you love and that inspires you. Music has the ability to improve the mood and lift the spirit.",
+        "Do an activity that inspires you: Do an activity that inspires you and excites you.",
+        "Choose a time to relax: Give yourself time for self-relaxation, whether it's taking a warm bath, reading a good book, or watching a favorite movie.",
+        "Connect with friends: Connect with your close friends and share your feelings with them. They may offer support and encouragement and help you cope with grief."
+        
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "حزن",
+      "patterns": ["حزين", "غير سعيد", "مخيب للآمال", "مكسور القلب", "حزن", "آسف لك", "حزن", "كآبة", "بؤس", "يأس"],
+      "responses": [
+        "التعبير عن مشاعرك: حاول التحدث إلى شخص قريب عن مشاعرك وما يسبب لك الحزن. الحديث عن المشاعر قد يساعدك في تخفيف العبء النفسي ويجعلك تشعر بتحسن.",
+        "ممارسة الرياضة: قم بنشاط بدني لفترة قصيرة، مثل المشي أو الجري. تحريك الجسم يطلق هرمونات السعادة ويساعد في تحسين المزاج.",
+        "استمتع بالطبيعة: قم بنزهة في الطبيعة أو تجول في حديقة. يمكن أن تلهمك الطبيعة والمشاهد الجميلة وتخفف من الحزن.",
+        "الاسترخاء والتأمل: جرب تقنيات الاسترخاء والتأمل مثل التنفس العميق والتأمل الهادئ. هذه الأنشطة يمكن أن تهدئ عقلك وترفع معنوياتك.",
+        "دوّن مشاعرك: حاول كتابة مشاعرك وأفكارك في ملاحظة أو مذكرات.",
+        "الكتابة هي وسيلة فعالة للتعبير عن المشاعر وتخفيف الحزن.",
+        "استمع إلى الموسيقى: اختر قائمة موسيقى تحبها وتلهمك. الموسيقى لديها القدرة على تحسين المزاج ورفع الروح.",
+        "قم بنشاط يلهمك: قم بنشاط يلهمك ويثيرك.",
+        "اختر وقتًا للاسترخاء: امنح نفسك وقتًا للاسترخاء الذاتي، سواء كان ذلك بأخذ حمام دافئ أو قراءة كتاب جيد أو مشاهدة فيلم مفضل.",
+        "اتصل بالأصدقاء: تواصل مع أصدقائك المقربين وشاركهم مشاعرك. قد يقدمون الدعم والتشجيع ويساعدونك في التعامل مع الحزن."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "anger",
+      "patterns": ["Angry", "Furious", "Pissed off", "Enraged", "you stupid", "rage", "fury", "wrath", "outrage", "irritation", "stupid", "غاضب", "غضب", "مستاء", "منزعج", "أنت غبي", "هياج", "غضب", "سخط", "إهانة", "تهيج", "غبي"],
+      "responses": [
+        "Take a deep breath and try to calm down",
+        "Let's play some games",
+        "You need to do some exercise",
+        "How about eating a meal?",
+        "Step away from the situation: If you're in a situation that triggers your anger, try to step away for a bit until you calm down.",
+        "Speak gently: Try to speak gently and calmly instead of reacting emotionally.",
+        "Identify the source of anger: Try to identify the cause of your anger and think about how to deal with it effectively.",
+        "Find a calming hobby: Look for a hobby that helps you relax and calm down, such as drawing or reading.",
+        "Use skillful techniques: Try using skillful thinking techniques to reduce anger and think more positively."
+        
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "غضب",
+      "patterns": [ "غاضب", "غضب", "مستاء", "منزعج", "أنت غبي", "هياج", "غضب", "سخط", "إهانة", "تهيج", "غبي"],
+      "responses": [
+        "خذ نفسًا عميقًا وحاول أن تهدأ",
+        "لنلعب بعض الألعاب",
+        "تحتاج إلى ممارسة بعض التمارين",
+        "ماذا عن تناول وجبة؟",
+        "ابتعد عن الموقف: إذا كنت في موقف يثير غضبك، حاول الابتعاد لفترة حتى تهدأ.",
+        "تحدث بلطف: حاول التحدث بلطف وهدوء بدلاً من الرد بعاطفية.",
+        "حدد مصدر الغضب: حاول تحديد سبب غضبك وفكر في كيفية التعامل معه بفعالية.",
+        "ابحث عن هواية مهدئة: ابحث عن هواية تساعدك على الاسترخاء والهدوء، مثل الرسم أو القراءة.",
+        "استخدم تقنيات ماهرة: حاول استخدام تقنيات التفكير الماهر لتقليل الغضب والتفكير بشكل أكثر إيجابية."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "admiration",
+      "patterns": ["Impressed", "Respectful", "Appreciative", "Inspired", "i feel love", "proud", "esteem", "approval", "fascination", "respect"],
+      "responses": [
+        "It's wonderful to admire someone or something",
+        "Admiration is a beautiful feeling",
+        "Keep spreading positivity and admiration",
+        "Expressing your feelings: Don't hesitate to express your feelings and tell the person you admire about your feelings in a sincere and straightforward manner.",
+        "Communication: Maintain regular communication with the person you admire through text messages or phone calls.",
+        "Appreciation and gratitude: Value and appreciate the relationship you have and don't forget the importance of having this person in your life.",
+        "Positive thinking: Keep thinking positively and focus on the aspects of the person that you admire."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "إعجاب",
+      "patterns": ["أشعر بالإعجاب", "احترام", "تقدير", "إلهام", "أشعر بالحب", "فخور", "تقدير", "موافقة", "افتتان", "احترام"],
+      "responses": [
+        "من الرائع أن تعجب بشخص أو بشيء ما",
+        "الإعجاب هو شعور جميل",
+        "استمر في نشر الإيجابية والإعجاب",
+        "التعبير عن مشاعرك: لا تتردد في التعبير عن مشاعرك وأخبر الشخص الذي تعجب به عن مشاعرك بشكل صادق ومباشر.",
+        "التواصل: حافظ على التواصل المنتظم مع الشخص الذي تعجب به من خلال الرسائل النصية أو المكالمات الهاتفية.",
+        "التقدير والامتنان: قدر واعتز بالعلاقة التي لديك ولا تنسى أهمية وجود هذا الشخص في حياتك.",
+        "التفكير الإيجابي: حافظ على التفكير الإيجابي وركز على الجوانب التي تعجبك في الشخص."
+      ],
+      "context_set": ""
+    },
+      
+      {
+        "tag": "ai_tips",
+        "patterns": ["What is artificial intelligence?","What is AI?", "Explain AI to me", "ما هو الذكاء الاصطناعي؟", "اشرح لي الذكاء الصناعي"],
+        "responses": ["Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems.", "AI involves learning, reasoning, and self-correction by machines.", "الذكاء الاصطناعي هو محاكاة عمليات الذكاء البشري بواسطة الآلات، وخاصة أنظمة الكمبيوتر.", "يشمل الذكاء الاصطناعي التعلم والاستدلال والتصحيح الذاتي بواسطة الآلات."]
+      },
+      {
+        "tag": "ذكاء_صنعي",
+        "patterns": ["ما هو الذكاء الاصطناعي؟", "اشرح لي الذكاء الصناعي"],
+        "responses": ["الذكاء الاصطناعي هو محاكاة عمليات الذكاء البشري بواسطة الآلات، وخاصة أنظمة الكمبيوتر.", "يشمل الذكاء الاصطناعي التعلم والاستدلال والتصحيح الذاتي بواسطة الآلات."]
+      },
+      {
+        "tag": "jokes_entertainment",
+        "patterns": ["Tell me a joke", "I need some entertainment"],
+        "responses": ["Why don't scientists trust atoms? Because they make up everything!", "Why did the scarecrow win an award? Because he was outstanding in his field!"]
+      }
+      ,
+      {
+        "tag": "ترفيه",
+        "patterns": [ "قل لي نكتة", "أريد بعض الترفيه"],
+        "responses": ["لماذا لا يثق العلماء في الذرات؟ لأنها تشكل كل شيء!", "لماذا فاز الفزاعة بجائزة؟ لأنه كان رائعًا في مجاله!"]
+      }
+  ]
+}
